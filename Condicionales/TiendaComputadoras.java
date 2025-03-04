@@ -6,11 +6,11 @@ public class TiendaComputadoras {
          var precioPorComputadora = 500.0;
         
         
-        Scanner scanner = new Scanner(System.in);
+        var consola = new Scanner(System.in);
         
         
         System.out.print("Ingrese el número de computadoras que desea adquirir: ");
-        int numeroComputadoras = scanner.nextInt();
+        var numeroComputadoras = consola.nextInt();
         
         
         var totalSinDescuento = numeroComputadoras * precioPorComputadora;

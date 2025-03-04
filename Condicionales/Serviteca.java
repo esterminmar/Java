@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Serviteca {
     public static void main(String[] args) {
         System.out.println("*** SERVITECA DE LLANTAS ***");
-        Scanner scanner = new Scanner(System.in);
+        var consola = new Scanner(System.in);
         
         
         System.out.print("Ingrese el número de llantas que desea adquirir: ");
-        var numeroLlantas = scanner.nextInt();
+        var numeroLlantas = consola.nextInt();
         
         
         var precioPorLlanta = 0.0;

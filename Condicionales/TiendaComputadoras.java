@@ -20,7 +20,7 @@ public class TiendaComputadoras {
         
         if (numeroComputadoras < 5) {
             descuento = totalSinDescuento * 0.10; 
-        } else if (numeroComputadoras >= 5 & numeroComputadoras < 10) {
+        } else if (numeroComputadoras >= 5 && numeroComputadoras < 10) {
             descuento = totalSinDescuento * 0.20; 
         } else if (numeroComputadoras >= 10) {
             descuento = totalSinDescuento * 0.40; 
